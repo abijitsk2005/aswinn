@@ -1,0 +1,13 @@
+git config --global user.name ASWINNSURIYA
+
+git config --global user.email nyctophileroy@gmail.com
+
+git clone https://github.com/ASWINNSURIYA/hehe.git
+
+cd hehe
+
+git add .
+
+git commit -m "no changes"
+
+git push
