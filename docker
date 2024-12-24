@@ -1,0 +1,11 @@
+FROM python:3.9-slim
+WOEKDIR /abi
+COPY . .
+CMD ["python", "app.py"]
+
+docker build -t abi .
+docker images
+docker tag abi user name
+docker push
+docker pull
+docker run
